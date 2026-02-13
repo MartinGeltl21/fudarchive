@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Submission } from '@/lib/types';
@@ -18,8 +20,12 @@ export default function ScreenshotCard({
         { year: 'numeric', month: 'short', day: 'numeric' }
     );
 
+    const handleClick = () => {
+        window.open(submission.image_url, '_blank');
+    };
+
     return (
-        <article className={`card ${styles.card}`}>
+        <article className={`card ${styles.card}`} onClick={handleClick} style={{ cursor: 'pointer' }}>
             <div className={styles.imageWrapper}>
                 <Image
                     src={submission.image_url}
@@ -44,3 +50,4 @@ export default function ScreenshotCard({
         </article>
     );
 }
+

@@ -11,7 +11,8 @@
   "hero": {
     "title": "FUD Archive",
     "subtitle": "A public record of the worst Bitcoin takes in history.",
-    "stats": "{count} archived predictions",
+    "stats": "{count}",
+    "statsLabel": "archived predictions",
     "cta": "Submit a Screenshot"
   },
   "gallery": {

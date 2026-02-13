@@ -11,7 +11,8 @@
     "hero": {
         "title": "FUD-Archiv",
         "subtitle": "Eine öffentliche Dokumentation der schlechtesten Bitcoin-Vorhersagen der Geschichte.",
-        "stats": "{count} archivierte Vorhersagen",
+        "stats": "{count}",
+        "statsLabel": "archivierte Vorhersagen",
         "cta": "Screenshot einreichen"
     },
     "gallery": {

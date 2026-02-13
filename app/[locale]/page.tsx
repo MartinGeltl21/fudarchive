@@ -98,8 +98,8 @@ export default function GalleryPage() {
                     <p className={styles.subtitle}>{t('hero.subtitle')}</p>
                     {totalCount > 0 && (
                         <p className={styles.stats}>
-                            <span className={styles.statsNumber}>{totalCount}</span>{' '}
-                            {t('hero.stats', { count: totalCount })}
+                            <span className={styles.statsNumber}>{t('hero.stats', { count: totalCount })}</span>{' '}
+                            {t('hero.statsLabel')}
                         </p>
                     )}
                 </div>
