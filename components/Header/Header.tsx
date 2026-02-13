@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import ThemeToggle from '@/components/ThemeToggle/ThemeToggle';
+import CurrencyToggle from '@/components/CurrencyToggle/CurrencyToggle';
 import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher';
 import styles from './Header.module.css';
 
@@ -28,6 +29,7 @@ export default function Header() {
                 </nav>
 
                 <div className={styles.controls}>
+                    <CurrencyToggle />
                     <LanguageSwitcher />
                     <ThemeToggle />
                 </div>

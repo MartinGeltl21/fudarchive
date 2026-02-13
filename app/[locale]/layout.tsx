@@ -4,6 +4,7 @@ import { routing } from '@/i18n/routing';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider/ThemeProvider';
+import { CurrencyProvider } from '@/components/CurrencyContext/CurrencyContext';
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
@@ -24,11 +25,13 @@ export default async function LocaleLayout({
         <html lang={locale} data-theme="dark" suppressHydrationWarning>
             <body>
                 <ThemeProvider>
-                    <NextIntlClientProvider messages={messages}>
-                        <Header />
-                        <main>{children}</main>
-                        <Footer />
-                    </NextIntlClientProvider>
+                    <CurrencyProvider>
+                        <NextIntlClientProvider messages={messages}>
+                            <Header />
+                            <main>{children}</main>
+                            <Footer />
+                        </NextIntlClientProvider>
+                    </CurrencyProvider>
                 </ThemeProvider>
             </body>
         </html>

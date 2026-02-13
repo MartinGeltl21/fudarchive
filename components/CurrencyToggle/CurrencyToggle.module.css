@@ -1,0 +1,39 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 8px;
+    border-radius: var(--radius-md);
+    background: var(--tag-bg);
+    border: 1px solid var(--border-primary);
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.toggle:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-card-hover);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+    opacity: 0.4;
+    font-size: 0.9rem;
+}
+
+.active {
+    opacity: 1;
+    color: var(--bitcoin-orange);
+    background: var(--bitcoin-orange-subtle);
+}

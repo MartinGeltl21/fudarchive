@@ -82,6 +82,12 @@
     "another": "Submit Another",
     "browse": "Browse Archive"
   },
+  "bitcoin": {
+    "priceOn": "Price on that date"
+  },
+  "lightbox": {
+    "close": "Close"
+  },
   "theme": {
     "light": "Light",
     "dark": "Dark"

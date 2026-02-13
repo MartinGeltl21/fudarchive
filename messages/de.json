@@ -82,6 +82,12 @@
         "another": "Weiteren einreichen",
         "browse": "Archiv durchsuchen"
     },
+    "bitcoin": {
+        "priceOn": "Preis an dem Tag"
+    },
+    "lightbox": {
+        "close": "Schließen"
+    },
     "theme": {
         "light": "Hell",
         "dark": "Dunkel"
