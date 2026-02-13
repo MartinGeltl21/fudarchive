@@ -1,0 +1,26 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 4px;
+    border-radius: var(--radius-full);
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-primary);
+    transition: background var(--transition-fast);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: var(--text-tertiary);
+    transition: all var(--transition-fast);
+}
+
+.icon.active {
+    color: var(--bitcoin-orange);
+    background: var(--bitcoin-orange-subtle);
+}

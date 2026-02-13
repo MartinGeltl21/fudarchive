@@ -1,0 +1,35 @@
+.footer {
+    margin-top: auto;
+    border-top: 1px solid var(--border-primary);
+    padding: 24px 0;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.tagline {
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+    font-family: var(--font-mono);
+}
+
+.built {
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+}
+
+.heart {
+    color: var(--bitcoin-orange);
+}
+
+@media (max-width: 640px) {
+    .inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+}

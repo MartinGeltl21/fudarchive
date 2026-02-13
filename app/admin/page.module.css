@@ -1,0 +1,170 @@
+.page {
+    min-height: 100dvh;
+    background: var(--bg-primary);
+    font-family: var(--font-sans);
+    color: var(--text-primary);
+}
+
+.header {
+    border-bottom: 1px solid var(--border-primary);
+    background: var(--bg-secondary);
+}
+
+.headerInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bitcoin-orange);
+    color: #fff;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 20px 48px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-primary);
+    padding-bottom: 0;
+}
+
+.tab {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    border-bottom: 2px solid transparent;
+    transition: all var(--transition-fast);
+    margin-bottom: -1px;
+}
+
+.tab:hover {
+    color: var(--text-primary);
+}
+
+.tab.tabActive {
+    color: var(--bitcoin-orange);
+    border-bottom-color: var(--bitcoin-orange);
+}
+
+/* Loading / Empty */
+.loading,
+.empty {
+    text-align: center;
+    padding: 48px 20px;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* List */
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-lg);
+    transition: border-color var(--transition-fast);
+}
+
+.card:hover {
+    border-color: var(--border-hover);
+}
+
+.cardImage {
+    position: relative;
+    width: 300px;
+    min-height: 200px;
+    flex-shrink: 0;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.cardInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+}
+
+.cardMeta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.metaItem {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+}
+
+.cardDesc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.cardSubmitted {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    font-family: var(--font-mono);
+    margin-top: auto;
+}
+
+.cardActions {
+    display: flex;
+    gap: 8px;
+    padding-top: 8px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .cardImage {
+        width: 100%;
+        min-height: 180px;
+    }
+}

@@ -1,0 +1,13 @@
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: var(--radius-full);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--topic-color);
+    background: var(--topic-bg);
+    border: 1px solid var(--topic-border);
+}

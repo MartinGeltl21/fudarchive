@@ -1,0 +1,57 @@
+.bar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-lg);
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.select {
+    flex: 1;
+    min-width: 140px;
+    font-size: 0.82rem;
+    padding: 8px 30px 8px 12px;
+}
+
+.searchRow {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.searchWrapper {
+    flex: 1;
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-tertiary);
+    pointer-events: none;
+}
+
+.searchInput {
+    padding-left: 36px !important;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+    }
+
+    .select {
+        min-width: 100%;
+    }
+}

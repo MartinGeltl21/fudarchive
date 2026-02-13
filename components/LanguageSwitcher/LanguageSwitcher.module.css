@@ -1,0 +1,27 @@
+.switcher {
+    display: flex;
+    align-items: center;
+    border-radius: var(--radius-full);
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-primary);
+    overflow: hidden;
+}
+
+.lang {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--text-tertiary);
+    transition: all var(--transition-fast);
+    font-family: var(--font-mono);
+}
+
+.lang:hover {
+    color: var(--text-primary);
+}
+
+.lang.active {
+    color: var(--bitcoin-orange);
+    background: var(--bitcoin-orange-subtle);
+}

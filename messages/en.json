@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "FUD Archive",
+    "description": "A public archive of bad Bitcoin takes. Browse, filter, and submit screenshots of the worst Bitcoin FUD."
+  },
+  "nav": {
+    "home": "Archive",
+    "submit": "Submit",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "FUD Archive",
+    "subtitle": "A public record of the worst Bitcoin takes in history.",
+    "stats": "{count} archived predictions",
+    "cta": "Submit a Screenshot"
+  },
+  "gallery": {
+    "empty": "No entries yet. Be the first to submit a bad take!",
+    "noResults": "No entries match your filters.",
+    "loadMore": "Load More"
+  },
+  "filter": {
+    "all": "All",
+    "language": "Language",
+    "platform": "Platform",
+    "year": "Year",
+    "topic": "Topic",
+    "search": "Search descriptions...",
+    "reset": "Reset Filters"
+  },
+  "platforms": {
+    "twitter": "Twitter / X",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "news": "News Outlet",
+    "other": "Other"
+  },
+  "topics": {
+    "bubble": "Bubble",
+    "scam": "Scam",
+    "environment": "Environment",
+    "obituary": "Obituary",
+    "regulation": "Regulation",
+    "other": "Other"
+  },
+  "submit": {
+    "title": "Submit a Screenshot",
+    "subtitle": "Help document the worst Bitcoin takes. Upload a screenshot and we'll review it.",
+    "image": "Screenshot",
+    "imageDrag": "Drag & drop or click to upload",
+    "imageHint": "JPG, PNG or WebP, max 5 MB",
+    "platform": "Platform",
+    "platformPlaceholder": "Select platform...",
+    "date": "Date of Post",
+    "dateHint": "When was this originally posted?",
+    "topic": "Topic",
+    "topicPlaceholder": "Select topic...",
+    "language": "Post Language",
+    "description": "Description (optional)",
+    "descriptionPlaceholder": "Brief context about this take...",
+    "descriptionHint": "Max 280 characters",
+    "button": "Submit for Review",
+    "submitting": "Submitting...",
+    "errors": {
+      "imageRequired": "Please select an image.",
+      "imageTooLarge": "Image must be under 5 MB.",
+      "imageFormat": "Only JPG, PNG and WebP are allowed.",
+      "platformRequired": "Please select a platform.",
+      "dateRequired": "Please select a date.",
+      "dateFuture": "Date cannot be in the future.",
+      "topicRequired": "Please select a topic.",
+      "descriptionTooLong": "Description must be 280 characters or less.",
+      "submitFailed": "Submission failed. Please try again."
+    }
+  },
+  "success": {
+    "title": "Thank you!",
+    "message": "Your screenshot has been submitted for review. If approved, it will appear in the archive.",
+    "another": "Submit Another",
+    "browse": "Browse Archive"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "footer": {
+    "tagline": "Documenting Bitcoin FUD since 2009.",
+    "builtWith": "Built with"
+  }
+}

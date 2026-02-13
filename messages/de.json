@@ -1,0 +1,92 @@
+{
+    "meta": {
+        "title": "FUD-Archiv",
+        "description": "Ein öffentliches Archiv der schlechtesten Bitcoin-Takes. Durchsuche, filtere und reiche Screenshots der schlimmsten Bitcoin-FUD ein."
+    },
+    "nav": {
+        "home": "Archiv",
+        "submit": "Einreichen",
+        "admin": "Admin"
+    },
+    "hero": {
+        "title": "FUD-Archiv",
+        "subtitle": "Eine öffentliche Dokumentation der schlechtesten Bitcoin-Vorhersagen der Geschichte.",
+        "stats": "{count} archivierte Vorhersagen",
+        "cta": "Screenshot einreichen"
+    },
+    "gallery": {
+        "empty": "Noch keine Einträge. Sei der Erste und reiche einen schlechten Take ein!",
+        "noResults": "Keine Einträge für diese Filter gefunden.",
+        "loadMore": "Mehr laden"
+    },
+    "filter": {
+        "all": "Alle",
+        "language": "Sprache",
+        "platform": "Plattform",
+        "year": "Jahr",
+        "topic": "Thema",
+        "search": "Beschreibungen durchsuchen...",
+        "reset": "Filter zurücksetzen"
+    },
+    "platforms": {
+        "twitter": "Twitter / X",
+        "reddit": "Reddit",
+        "youtube": "YouTube",
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "news": "Nachrichtenportal",
+        "other": "Sonstiges"
+    },
+    "topics": {
+        "bubble": "Blase",
+        "scam": "Betrug",
+        "environment": "Umwelt",
+        "obituary": "Nachruf",
+        "regulation": "Regulierung",
+        "other": "Sonstiges"
+    },
+    "submit": {
+        "title": "Screenshot einreichen",
+        "subtitle": "Hilf mit, die schlechtesten Bitcoin-Takes zu dokumentieren. Lade einen Screenshot hoch und wir prüfen ihn.",
+        "image": "Screenshot",
+        "imageDrag": "Ziehen & Ablegen oder klicken zum Hochladen",
+        "imageHint": "JPG, PNG oder WebP, max. 5 MB",
+        "platform": "Plattform",
+        "platformPlaceholder": "Plattform auswählen...",
+        "date": "Datum des Posts",
+        "dateHint": "Wann wurde das ursprünglich gepostet?",
+        "topic": "Thema",
+        "topicPlaceholder": "Thema auswählen...",
+        "language": "Sprache des Posts",
+        "description": "Beschreibung (optional)",
+        "descriptionPlaceholder": "Kurzer Kontext zu diesem Take...",
+        "descriptionHint": "Max. 280 Zeichen",
+        "button": "Zur Prüfung einreichen",
+        "submitting": "Wird eingereicht...",
+        "errors": {
+            "imageRequired": "Bitte wähle ein Bild aus.",
+            "imageTooLarge": "Bild muss kleiner als 5 MB sein.",
+            "imageFormat": "Nur JPG, PNG und WebP sind erlaubt.",
+            "platformRequired": "Bitte wähle eine Plattform.",
+            "dateRequired": "Bitte wähle ein Datum.",
+            "dateFuture": "Datum darf nicht in der Zukunft liegen.",
+            "topicRequired": "Bitte wähle ein Thema.",
+            "descriptionTooLong": "Beschreibung darf maximal 280 Zeichen lang sein.",
+            "submitFailed": "Einreichung fehlgeschlagen. Bitte versuche es erneut."
+        }
+    },
+    "success": {
+        "title": "Vielen Dank!",
+        "message": "Dein Screenshot wurde zur Prüfung eingereicht. Wenn er genehmigt wird, erscheint er im Archiv.",
+        "another": "Weiteren einreichen",
+        "browse": "Archiv durchsuchen"
+    },
+    "theme": {
+        "light": "Hell",
+        "dark": "Dunkel"
+    },
+    "footer": {
+        "tagline": "Bitcoin-FUD dokumentiert seit 2009.",
+        "builtWith": "Erstellt mit"
+    }
+}
