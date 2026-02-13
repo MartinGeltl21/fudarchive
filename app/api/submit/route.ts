@@ -21,7 +21,7 @@ function isRateLimited(ip: string): boolean {
 }
 
 const ALLOWED_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
-const MAX_SIZE = 200 * 1024; // 200 KB
+const MAX_SIZE = 500 * 1024; // 500 KB
 const VALID_PLATFORMS = ['twitter', 'reddit', 'youtube', 'facebook', 'linkedin', 'news', 'other'];
 const VALID_TOPICS = ['bubble', 'scam', 'environment', 'obituary', 'regulation', 'other'];
 const VALID_LANGUAGES = ['en', 'de'];
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
 
         if (image.size > MAX_SIZE) {
             return NextResponse.json(
-                { error: 'Image too large. Max 5 MB.' },
+                { error: 'Image too large. Max 500 KB.' },
                 { status: 400 }
             );
         }
