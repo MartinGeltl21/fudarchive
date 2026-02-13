@@ -50,7 +50,7 @@
         "subtitle": "Hilf mit, die schlechtesten Bitcoin-Takes zu dokumentieren. Lade einen Screenshot hoch und wir prüfen ihn.",
         "image": "Screenshot",
         "imageDrag": "Ziehen & Ablegen oder klicken zum Hochladen",
-        "imageHint": "JPG, PNG oder WebP, max. 5 MB",
+        "imageHint": "JPG, PNG oder WebP, max. 200 KB",
         "platform": "Plattform",
         "platformPlaceholder": "Plattform auswählen...",
         "date": "Datum des Posts",
@@ -65,7 +65,7 @@
         "submitting": "Wird eingereicht...",
         "errors": {
             "imageRequired": "Bitte wähle ein Bild aus.",
-            "imageTooLarge": "Bild muss kleiner als 5 MB sein.",
+            "imageTooLarge": "Bild muss kleiner als 200 KB sein.",
             "imageFormat": "Nur JPG, PNG und WebP sind erlaubt.",
             "platformRequired": "Bitte wähle eine Plattform.",
             "dateRequired": "Bitte wähle ein Datum.",
@@ -87,6 +87,7 @@
     },
     "footer": {
         "tagline": "Bitcoin-FUD dokumentiert seit 2009.",
-        "builtWith": "Erstellt mit"
+        "builtWith": "Erstellt mit",
+        "impressum": "Impressum"
     }
 }

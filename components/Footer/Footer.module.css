@@ -26,6 +26,28 @@
     color: var(--bitcoin-orange);
 }
 
+.impressum {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-primary);
+    text-align: center;
+}
+
+.impressumText {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+}
+
+.impressumLink {
+    color: var(--text-tertiary);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.impressumLink:hover {
+    color: var(--bitcoin-orange);
+}
+
 @media (max-width: 640px) {
     .inner {
         flex-direction: column;

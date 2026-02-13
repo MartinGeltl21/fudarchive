@@ -50,7 +50,7 @@
     "subtitle": "Help document the worst Bitcoin takes. Upload a screenshot and we'll review it.",
     "image": "Screenshot",
     "imageDrag": "Drag & drop or click to upload",
-    "imageHint": "JPG, PNG or WebP, max 5 MB",
+    "imageHint": "JPG, PNG or WebP, max 200 KB",
     "platform": "Platform",
     "platformPlaceholder": "Select platform...",
     "date": "Date of Post",
@@ -65,7 +65,7 @@
     "submitting": "Submitting...",
     "errors": {
       "imageRequired": "Please select an image.",
-      "imageTooLarge": "Image must be under 5 MB.",
+      "imageTooLarge": "Image must be under 200 KB.",
       "imageFormat": "Only JPG, PNG and WebP are allowed.",
       "platformRequired": "Please select a platform.",
       "dateRequired": "Please select a date.",
@@ -87,6 +87,7 @@
   },
   "footer": {
     "tagline": "Documenting Bitcoin FUD since 2009.",
-    "builtWith": "Built with"
+    "builtWith": "Built with",
+    "impressum": "Contact"
   }
 }

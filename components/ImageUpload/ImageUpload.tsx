@@ -12,7 +12,7 @@ interface ImageUploadProps {
     onError: (error: string) => void;
 }
 
-const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
+const MAX_FILE_SIZE = 200 * 1024; // 200 KB
 const ALLOWED_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
 const MAX_WIDTH = 1400;
 

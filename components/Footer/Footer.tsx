@@ -12,6 +12,11 @@ export default function Footer() {
                     {t('builtWith')} <span className={styles.heart}>♥</span> &amp; ₿
                 </p>
             </div>
+            <div className={`container ${styles.impressum}`}>
+                <p className={styles.impressumText}>
+                    {t('impressum')}: <a href="mailto:bitcoinohnestrom@proton.me" className={styles.impressumLink}>bitcoinohnestrom@proton.me</a>
+                </p>
+            </div>
         </footer>
     );
 }
